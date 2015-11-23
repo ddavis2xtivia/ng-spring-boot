@@ -36,7 +36,6 @@ mvn clean package
 
 Now you can run the Java application quite easily:
 ```
-cd target
-java -jar ng-spring-boot-1.0.0.jar
+java -jar target/ng-spring-boot-1.0.0.jar
 ```
 
