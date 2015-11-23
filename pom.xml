@@ -29,6 +29,37 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+        <resources>
+            <resource>
+                <directory>src/main/resources/static</directory>
+                <targetPath>static</targetPath>
+            </resource>
+            <resource>
+                <directory>node_modules/bootstrap/dist/css</directory>
+                <includes>
+                    <include>bootstrap.min.css</include>
+                </includes>
+                <targetPath>static/lib</targetPath>
+            </resource>
+            <resource>
+                <directory>node_modules/bootstrap/dist/fonts</directory>
+                <targetPath>static/fonts</targetPath>
+            </resource>
+            <resource>
+                <directory>node_modules/angular</directory>
+                <includes>
+                    <include>angular.min.js</include>
+                </includes>
+                <targetPath>static/lib</targetPath>
+            </resource>
+            <resource>
+                <directory>node_modules/angular-resource</directory>
+                <includes>
+                    <include>angular-resource.min.js</include>
+                </includes>
+                <targetPath>static/lib</targetPath>
+            </resource>
+        </resources>
 	</build>
 	
 	<dependencies>

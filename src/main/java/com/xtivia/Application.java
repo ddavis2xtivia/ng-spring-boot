@@ -1,4 +1,4 @@
-package be.g00glen00b;
+package com.xtivia;
 
 
 import org.springframework.boot.SpringApplication;

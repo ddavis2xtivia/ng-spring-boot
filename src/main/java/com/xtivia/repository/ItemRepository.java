@@ -1,8 +1,7 @@
-package be.g00glen00b.repository;
+package com.xtivia.repository;
 
+import com.xtivia.model.Item;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import be.g00glen00b.model.Item;
 
 public interface ItemRepository extends JpaRepository<Item, Integer> {
 

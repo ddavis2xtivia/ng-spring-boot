@@ -26,7 +26,7 @@ With Spring Boot you can even leave the configuration behind for configuring Spr
 ## Installation
 Installation is quite easy, first you will have to install some front-end dependencies using Bower:
 ```
-bower install
+npm install
 ```
 
 Then you can run Maven to package the application:
